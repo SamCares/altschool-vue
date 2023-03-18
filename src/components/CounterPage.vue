@@ -35,7 +35,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 .container {
-    background-color: rgb(8, 1, 41);
+    background-color: rgba(2,0,36,1)
 }
 
 .buttons {

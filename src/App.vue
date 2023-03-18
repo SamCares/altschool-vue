@@ -34,7 +34,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: rgb(8, 1, 41);
+  background-color: rgba(2,0,36,1)
   border-radius: 35px;
   width: 100%;
   height: 20em;
