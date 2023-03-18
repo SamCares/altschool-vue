@@ -1,13 +1,11 @@
 <template>
   <div id="apps">
-    <!-- <router-link to="/counter"> <h1>sjhvskjf</h1> </router-link> -->
     <router-view />
     <CounterPage />
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import CounterPage from './components/CounterPage.vue'
 export default {
   name: 'App',
@@ -26,8 +24,8 @@ html {
 }
 
 body {
-  background-color: #013d3bff;
-  /* background-color: #012928ff; */
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
 }
 
 #app {
@@ -36,10 +34,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: #012928ff;
-  /* margin-top: 60px; */
-  width: 70%;
-  height: 18em;
+  background-color: rgb(8, 1, 41);
+  border-radius: 35px;
+  width: 100%;
+  height: 20em;
   padding: 22px 0 5px 0;
 }
 

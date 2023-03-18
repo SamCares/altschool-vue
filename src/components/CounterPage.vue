@@ -32,10 +32,10 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Stardos+Stencil:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 .container {
-    background-color: #012928ff;
+    background-color: rgb(8, 1, 41);
 }
 
 .buttons {
@@ -51,15 +51,16 @@ export default {
 
 button {
     width: 8rem;
-    background-color: #013d3bff;
+    background-color: rgb(10, 167, 172);
     height: 27px;
     border-color: #2c3e50;
+    border-radius: 10px;
     cursor: pointer;
-    color: white;
+    color: black;
 }
 
 button:hover {
-    color: black;
+    color: white;
 }
 
 .reset {
@@ -67,10 +68,14 @@ button:hover {
 }
 
 span {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-family: 'Stardos Stencil', cursive;
     color: white;
     font-size: 20px;
+}
+
+h1{
+    padding: 12px;
 }
 
 h3,
