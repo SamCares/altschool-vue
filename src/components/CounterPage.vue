@@ -51,7 +51,7 @@ export default {
 
 button {
     width: 8rem;
-    background-color: rgb(10, 167, 172);
+    background-color: rgba(0,212,255,1)
     height: 27px;
     border-color: #2c3e50;
     border-radius: 10px;
